@@ -52,9 +52,9 @@ body {
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url("/img/uiversity.webp");
+    url("../uiversity.webp");
   padding-top: 300px;
-  padding-bottom: 290px;
+  padding-bottom: 290px;  
 }
 .hero-title {
   font-family: caveat;
