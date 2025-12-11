@@ -47,58 +47,97 @@ body {
 .header-link:hover {
   color: var(--title-color);
 }
-.hero-container{
+.hero-container {
   display: flex;
   align-items: center;
   gap: 32px;
 }
-.hero{
+.hero {
   padding-top: 80px;
   padding-bottom: 80px;
 }
 .hero-img {
-  width:500px;
+  width: 500px;
 }
-.hero-title{
+.hero-title {
   font-family: caveat;
-  font-size: 100px; 
+  font-size: 100px;
 }
-.hero-subtitle{
+.hero-subtitle {
   font-family: caveat;
   font-size: 80px;
 }
-.hero-text{
+.hero-text {
   font-size: 30px;
 }
-.information{
+.information {
   padding-top: 80px;
   padding-bottom: 80px;
 }
-.information-list{
+.information-list {
   display: flex;
   gap: 32px;
 }
-.information-item{
+.information-item {
   background-color: var(--title-color);
   border-radius: 32px;
   border: solid var(--text-color);
   padding-bottom: 30px;
   padding-top: 30px;
+  text-align: center;
+  max-width: 350px;
+  height: 430px;
 }
-
-.information-item:nth-child(2){
-  max-width: 300px;
-
-}
-.information-title{
+.information-title {
   font-family: caveat;
   font-size: 40px;
-   max-width: 200px;
+  text-align: center;
 }
-.information-text{
+.information-items {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.information-text {
   font-size: 30px;
 }
-
+.information-gap {
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+.dream {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.dream-text {
+  font-size: 35px;
+  text-align: center;
+  background-color: #4d4d4d;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.contacts{
+  padding-top: 50px;
+  padding-bottom: 72px;
+}
+.contacts-title {
+  font-size: 80px;
+  font-family: caveat;
+  text-align: center;
+}
+.contacts-list {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+  margin-top: 50px;
+}
+.contacts-icon {
+  fill: var(--title-color);
+  width: 130px;
+}
+.contacts-icon:hover{
+  fill: var(--text-color);
+}
 footer {
   background-color: var(--decorative-color);
   padding-top: 30px;
