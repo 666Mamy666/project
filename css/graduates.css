@@ -5,18 +5,19 @@
   --title-color: #00bfff;
 }
 
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: oswald;
+  font-weight: 100;
+}
+
 .container {
   width: 1080px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-}
-body {
-  background-color: var(--background-color);
-  color: var(--text-color);
-  font-family: oswald;
-  font-weight: 100;
 }
 
 .header {
@@ -41,64 +42,10 @@ body {
 .header-link {
   color: var(--text-color);
   font-size: 25px;
-  font-weight: 100;
-  max-width: 50px;
 }
 .header-link:hover {
   color: var(--title-color);
 }
-.hero-container{
-  display: flex;
-  align-items: center;
-  gap: 32px;
-}
-.hero{
-  padding-top: 80px;
-  padding-bottom: 80px;
-}
-.hero-img {
-  width:500px;
-}
-.hero-title{
-  font-family: caveat;
-  font-size: 100px; 
-}
-.hero-subtitle{
-  font-family: caveat;
-  font-size: 80px;
-}
-.hero-text{
-  font-size: 30px;
-}
-.information{
-  padding-top: 80px;
-  padding-bottom: 80px;
-}
-.information-list{
-  display: flex;
-  gap: 32px;
-}
-.information-item{
-  background-color: var(--title-color);
-  border-radius: 32px;
-  border: solid var(--text-color);
-  padding-bottom: 30px;
-  padding-top: 30px;
-}
-
-.information-item:nth-child(2){
-  max-width: 300px;
-
-}
-.information-title{
-  font-family: caveat;
-  font-size: 40px;
-   max-width: 200px;
-}
-.information-text{
-  font-size: 30px;
-}
-
 footer {
   background-color: var(--decorative-color);
   padding-top: 30px;
@@ -112,7 +59,7 @@ footer {
   color: var(--text-color);
   font-size: 25px;
 }
-.footer-link:hover {
+.footer-link:hover{
   color: var(--title-color);
 }
 .footer-nav {
