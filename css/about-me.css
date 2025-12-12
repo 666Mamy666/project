@@ -83,7 +83,7 @@ body {
   border-radius: 32px;
   border: solid var(--text-color);
   padding-bottom: 30px;
-  padding-top: 30px;
+  padding-top: 20px;
   text-align: center;
   max-width: 350px;
   height: 430px;
@@ -96,14 +96,18 @@ body {
 .information-items {
   display: flex;
   flex-direction: column;
-  gap: 32px;
+  gap: 5px;
 }
 .information-text {
   font-size: 30px;
 }
 .information-gap {
-  margin-top: 30px;
-  margin-bottom: 25px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+.information-padding{
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 .dream {
   padding-top: 80px;
